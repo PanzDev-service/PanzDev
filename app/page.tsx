@@ -4,10 +4,11 @@ import Link from "next/link";
 import { Wrench, Palette, Globe } from "lucide-react";
 import Hero from "./components/Hero";
 
+
 export default function Home() {
   return (
 
-    <main className="min-h-screen bg-[#050816] text-white overflow-hidden relative">
+    <main className="relative z-10 min-h-screen bg-transparent text-white overflow-hidden relative">
 
       {/* BACKGROUND GLOW */}
 
@@ -24,8 +25,7 @@ export default function Home() {
       
       <FadeUp>
 
-      <section className="relative max-w-7xl mx-auto px-6 md:px-10 pt-24 pb-24 grid lg:grid-cols-2 gap-20 items-center">
-
+      <section className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pt-40 pb-32 grid md:grid-cols-2 gap-24 items-center">
       
         {/* LEFT */}
 
@@ -41,7 +41,7 @@ export default function Home() {
 
             BUILD YOUR
 
-            <span className="block bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">
+            <span className="block animated-gradient bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 text-transparent bg-clip-text">
 
               DIGITAL FUTURE
 
@@ -80,7 +80,7 @@ export default function Home() {
 
           <div className="absolute inset-0 bg-cyan-500/20 blur-[120px] rounded-full"></div>
 
-          <div className="relative rounded-[40px] border border-white/10 bg-white/5 backdrop-blur-2xl p-8 shadow-[0_0_60px_rgba(34,211,238,0.08)]">
+          <div className="relative mt-10 md:mt-0 rounded-[40px] border border-white/10 bg-white/5 backdrop-blur-2xl p-8 shadow-[0_0_60px_rgba(34,211,238,0.08)]">
 
             <div className="grid grid-cols-2 gap-5">
 
@@ -162,7 +162,7 @@ export default function Home() {
       </FadeUp>
 {/* SERVICE SECTION */}
 <FadeUp>
-<section className="relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
+<section className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
 
   {/* TITLE */}
 
@@ -178,7 +178,7 @@ export default function Home() {
 
       Premium Digital
 
-      <span className="block bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">
+      <span className="block animated-gradient bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 text-transparent bg-clip-text">
 
         Solutions
 
@@ -334,7 +334,7 @@ export default function Home() {
 </FadeUp>
 {/* PRICING SECTION */}
 <FadeUp>
-<section className="relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
+<section className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
 
   {/* TITLE */}
 
@@ -350,7 +350,7 @@ export default function Home() {
 
       Choose Your
 
-      <span className="block bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">
+      <span className="block animated-gradient bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 text-transparent bg-clip-text">
 
         Best Package
 
@@ -528,7 +528,7 @@ export default function Home() {
 </FadeUp>
 {/* PORTFOLIO SECTION */}
 <FadeUp>
-<section className="relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
+<section className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
 
   {/* TITLE */}
 
@@ -544,7 +544,7 @@ export default function Home() {
 
       Creative Digital
 
-      <span className="block bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">
+      <span className="block animated-gradient bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 text-transparent bg-clip-text">
 
         Showcase
 
@@ -617,7 +617,7 @@ export default function Home() {
       <div className="h-[260px] overflow-hidden">
 
         <img
-          src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?q=80&w=1200&auto=format&fit=crop"
+          src="/images/santa.jpeg"
           alt="design"
           className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
         />
@@ -658,7 +658,7 @@ export default function Home() {
       <div className="h-[260px] overflow-hidden">
 
         <img
-          src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1200&auto=format&fit=crop"
+          src="/images/servis.jpg"
           alt="service"
           className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
         />
@@ -694,7 +694,7 @@ export default function Home() {
 </FadeUp>
 {/* WHY CHOOSE US */}
 <FadeUp>
-<section className="relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
+<section className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
 
   {/* TITLE */}
 
@@ -710,7 +710,7 @@ export default function Home() {
 
       Why People
 
-      <span className="block bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">
+      <span className="block animated-gradient bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 text-transparent bg-clip-text">
 
         Choose PanzDev
 

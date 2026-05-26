@@ -1,8 +1,10 @@
 import "./globals.css";
-import ParticlesBackground from "./components/ParticlesBackground";
+import CursorGlow from "./components/CursorGlow";
+import AnimatedBackground from "./components/AnimatedBackground";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import type { ReactNode } from "react";
+
 
 export default function RootLayout({
   children,
@@ -11,20 +13,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id">
-      <body className="bg-[#050816] text-white relative overflow-x-hidden">
-
-        {/* BACKGROUND EFFECT */}
-        <ParticlesBackground />
-
-        {/* MAIN CONTENT LAYER */}
-        <div className="relative z-10">
-          <Navbar />
-
+      <body className="relative bg-[#050816] text-white">
+        <AnimatedBackground />
+        <CursorGlow />
+        <Navbar />
+        
           {children}
-
-          <Footer />
-        </div>
-
+        
+        <Footer />
       </body>
     </html>
   );

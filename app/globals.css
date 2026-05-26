@@ -10,3 +10,128 @@ body{
   overflow-x:hidden;
   font-family:Arial, Helvetica, sans-serif;
 }
+@keyframes auroraMove {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+  50% {
+    transform: translateX(40px) translateY(-20px);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
+.aurora {
+  animation: auroraMove 12s ease-in-out infinite;
+}
+
+@keyframes auroraMove {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(45px, -30px, 0) scale(1.08);
+  }
+}
+
+@keyframes floatTech {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-25px) rotate(6deg);
+  }
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 200%;
+  }
+}
+
+@keyframes shineMove {
+  0% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(120%);
+  }
+}
+
+.aurora {
+  animation: auroraMove 12s ease-in-out infinite;
+}
+
+.aurora-delay {
+  animation: auroraMove 15s ease-in-out infinite;
+}
+
+.aurora-slow {
+  animation: auroraMove 18s ease-in-out infinite;
+}
+
+.float-tech {
+  animation: floatTech 6s ease-in-out infinite;
+}
+
+.float-tech-delay {
+  animation: floatTech 8s ease-in-out infinite;
+}
+
+.float-tech-slow {
+  animation: floatTech 10s ease-in-out infinite;
+}
+
+.animated-gradient {
+  background-size: 200%;
+  animation: gradientMove 5s linear infinite;
+}
+
+.glass-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-shine::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 45%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.12),
+    transparent
+  );
+  transform: translateX(-120%);
+  animation: shineMove 7s ease-in-out infinite;
+}
+
+.premium-card {
+  transition: all 0.5s ease;
+}
+
+.premium-card:hover {
+  border-color: rgba(34,211,238,0.45);
+  box-shadow: 0 0 45px rgba(34,211,238,0.18);
+  transform: translateY(-10px) scale(1.015);
+}
+
+@keyframes safeReveal {
+  from {
+    opacity: 0.85;
+    transform: translateY(35px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.safe-reveal {
+  animation: safeReveal 0.8s ease-out both;
+}

@@ -2,7 +2,7 @@ import { Smartphone, Wrench, ShieldCheck, BatteryCharging } from "lucide-react";
 
 export default function ServiceHP() {
   return (
-    <main className="min-h-screen bg-[#050816] text-white overflow-hidden relative">
+    <main className="relative z-10 min-h-screen bg-transparent text-white overflow-hidden relative">
 
       {/* GLOW */}
 
@@ -12,7 +12,7 @@ export default function ServiceHP() {
 
       {/* HERO */}
 
-      <section className="relative max-w-7xl mx-auto px-6 md:px-10 pt-24 pb-24 grid lg:grid-cols-2 gap-20 items-center">
+      <section className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pt-56 pb-32 grid md:grid-cols-2 gap-24 items-center">
 
         {/* LEFT */}
 
@@ -28,8 +28,7 @@ export default function ServiceHP() {
 
             SERVICE HP
 
-            <span className="block bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">
-
+            <span className="block animated-gradient bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 text-transparent bg-clip-text">
               MODERN
 
             </span>
@@ -63,14 +62,14 @@ export default function ServiceHP() {
 
         {/* RIGHT */}
 
-        <div className="relative">
+        <div className="relative mt-12 md:mt-0">
 
           <div className="absolute inset-0 bg-cyan-500/10 blur-[100px] rounded-full"></div>
 
-          <div className="relative rounded-[40px] border border-white/10 bg-white/5 backdrop-blur-2xl p-8">
+          <div className="relative mt-10 md:mt-0 rounded-[40px] border border-white/10 bg-white/5 backdrop-blur-2xl p-8">
 
             <img
-              src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1200&auto=format&fit=crop"
+              src="/images/servis.jpg"
               alt="service"
               className="w-full h-[450px] object-cover rounded-[30px]"
             />
@@ -83,7 +82,7 @@ export default function ServiceHP() {
 
       {/* SERVICES */}
 
-      <section className="relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
+      <section className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
 
         <div className="text-center mb-20">
 
@@ -91,8 +90,7 @@ export default function ServiceHP() {
 
             Our Repair
 
-            <span className="block bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">
-
+            <span className="block animated-gradient bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 text-transparent bg-clip-text">
               Services
 
             </span>
@@ -101,7 +99,7 @@ export default function ServiceHP() {
 
         </div>
 
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8">
 
           {/* CARD */}
 
@@ -197,7 +195,7 @@ export default function ServiceHP() {
 
       {/* PRICING */}
 
-      <section className="relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
+      <section className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
 
         <div className="text-center mb-20">
 
@@ -205,8 +203,7 @@ export default function ServiceHP() {
 
             Service
 
-            <span className="block bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">
-
+            <span className="block animated-gradient bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 text-transparent bg-clip-text">
               Pricing
 
             </span>

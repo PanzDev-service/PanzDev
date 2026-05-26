@@ -151,7 +151,7 @@ export default function Footer() {
 
         {/* BOTTOM */}
 
-        <div className="mt-20 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="mt-20 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-8">
 
           <p className="text-zinc-500 text-sm">
 
