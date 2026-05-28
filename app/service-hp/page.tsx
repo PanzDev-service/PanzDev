@@ -44,17 +44,19 @@ export default function ServiceHP() {
 
           <div className="flex flex-wrap gap-5 mt-10">
 
-            <button className="px-8 py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-purple-500 font-semibold hover:scale-105 transition duration-300 shadow-[0_0_40px_rgba(34,211,238,0.3)]">
+            <a
+  href="https://wa.me/6283117369756?text=Halo%20PanzDev,%20saya%20ingin%20service%20HP."
+  className="px-8 py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-purple-500 font-semibold hover:scale-105 transition duration-300"
+>
+  Order Service
+</a>
 
-              Order Service
-
-            </button>
-
-            <button className="px-8 py-4 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl hover:bg-white/10 transition duration-300">
-
-              View Pricing
-
-            </button>
+            <a
+  href="#pricing"
+  className="px-8 py-4 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl hover:bg-white/10 transition duration-300"
+>
+  View Pricing
+</a>
 
           </div>
 
@@ -82,7 +84,7 @@ export default function ServiceHP() {
 
       {/* SERVICES */}
 
-      <section className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
+      <section id="pricing" className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
 
         <div className="text-center mb-20">
 

@@ -18,11 +18,11 @@ export default function Footer() {
 
             <div className="flex items-center gap-4">
 
-              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-cyan-400 to-purple-500 flex items-center justify-center text-2xl font-black shadow-[0_0_40px_rgba(34,211,238,0.3)]">
-
-                P
-
-              </div>
+              <img
+  src="/logo.png"
+  alt="PanzDev Logo"
+  className="w-14 h-14 object-contain"
+/>
 
               <div>
 
@@ -46,7 +46,7 @@ export default function Footer() {
 
               Solusi modern untuk service HP,
               design editing, dan website development
-              dengan tampilan premium futuristik.
+              dengan tampilan premium.
 
             </p>
 
@@ -119,29 +119,30 @@ export default function Footer() {
               <p>
                 WhatsApp:
                 <span className="text-cyan-400">
-                  {" "}+62 8xxx xxxx xxx
+                  {" "}+62 831-1736-9756
                 </span>
               </p>
 
               <p>
                 Instagram:
                 <span className="text-purple-400">
-                  {" "}@panzdev
+                  {" "}@panzdev.service
                 </span>
               </p>
 
               <p>
                 TikTok:
                 <span className="text-pink-400">
-                  {" "}@panzdev
+                  {" "}@panzdev.service
                 </span>
               </p>
 
-              <button className="mt-4 px-6 py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-purple-500 font-semibold hover:scale-105 transition duration-300 shadow-[0_0_40px_rgba(34,211,238,0.3)]">
-
-                Contact Now
-
-              </button>
+              <a
+  href="https://wa.me/6283117369756?text=Halo%20PanzDev%2C%20saya%20ingin%20konsultasi%20mengenai%20layanan%20PanzDev."
+  className="mt-4 inline-block px-6 py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-purple-500 font-semibold hover:scale-105 transition duration-300"
+>
+  Contact Now
+</a>
 
             </div>
 

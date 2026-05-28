@@ -45,17 +45,19 @@ export default function WebsitePage() {
 
           <div className="flex flex-wrap gap-5 mt-10">
 
-            <button className="px-8 py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-purple-500 font-semibold hover:scale-105 transition duration-300 shadow-[0_0_40px_rgba(34,211,238,0.3)]">
+            <a
+  href="https://wa.me/6283117369756?text=Halo%20PanzDev,%20saya%20ingin%20membuat%20website."
+  className="px-8 py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-purple-500 font-semibold hover:scale-105 transition duration-300"
+>
+  Start Project
+</a>
 
-              Start Project
-
-            </button>
-
-            <button className="px-8 py-4 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl hover:bg-white/10 transition duration-300">
-
-              View Portfolio
-
-            </button>
+           <a
+  href="#packages"
+  className="px-8 py-4 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl hover:bg-white/10 transition duration-300"
+>
+  See Packages
+</a>
 
           </div>
 
@@ -82,7 +84,7 @@ export default function WebsitePage() {
 
       {/* FEATURES */}
 
-      <section className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
+      <section id="packages" className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
 
         <div className="text-center mb-20">
 
@@ -318,11 +320,12 @@ export default function WebsitePage() {
 
             </p>
 
-            <button className="mt-10 px-10 py-5 rounded-2xl bg-gradient-to-r from-cyan-400 to-purple-500 font-semibold hover:scale-105 transition duration-300 shadow-[0_0_50px_rgba(34,211,238,0.4)]">
-
-              Contact Now
-
-            </button>
+            <a
+  href="https://wa.me/6283117369756?text=Halo%20PanzDev%2C%20saya%20ingin%20konsultasi%20mengenai%20layanan%20PanzDev."
+  className="mt-4 inline-block px-6 py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-purple-500 font-semibold hover:scale-105 transition duration-300"
+>
+  Contact Now
+</a>
 
           </div>
 

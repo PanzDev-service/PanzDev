@@ -4,7 +4,10 @@ import Link from "next/link";
 import { Wrench, Palette, Globe } from "lucide-react";
 import Hero from "./components/Hero";
 
+const waNumber = "6283117369756";
 
+const waLink = (text: string) =>
+  `https://wa.me/${waNumber}?text=${encodeURIComponent(text)}`;
 export default function Home() {
   return (
 
@@ -58,17 +61,19 @@ export default function Home() {
 
           <div className="flex flex-wrap gap-5 mt-10">
 
-            <button className="px-8 py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-purple-500 font-semibold hover:scale-105 transition duration-300 shadow-[0_0_40px_rgba(34,211,238,0.3)]">
+            <a
+  href="#services"
+  className="px-8 py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-purple-500 font-semibold hover:scale-105 transition duration-300"
+>
+  Explore Service
+</a>
 
-              Explore Service
-
-            </button>
-
-            <button className="px-8 py-4 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl hover:bg-white/10 transition duration-300">
-
-              Learn More
-
-            </button>
+           <a
+  href="#pricing"
+  className="px-8 py-4 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl hover:bg-white/10 transition duration-300"
+>
+  Learn More
+</a>
 
           </div>
 
@@ -162,7 +167,7 @@ export default function Home() {
       </FadeUp>
 {/* SERVICE SECTION */}
 <FadeUp>
-<section className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
+<section id="services" className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
 
   {/* TITLE */}
 
@@ -230,11 +235,9 @@ export default function Home() {
             Start 50K
           </span>
 
-          <button className="px-5 py-3 rounded-2xl bg-cyan-500/10 border border-cyan-400/20 text-cyan-300 hover:bg-cyan-500/20 transition">
-
-            Explore
-
-          </button>
+          <a href="/service-hp" className="px-5 py-3 rounded-2xl bg-cyan-500/10 border border-cyan-400/20 text-cyan-300 hover:bg-cyan-500/20 transition">
+  Explore
+</a>
 
         </div>
 
@@ -273,11 +276,9 @@ export default function Home() {
             Start 25K
           </span>
 
-          <button className="px-5 py-3 rounded-2xl bg-purple-500/10 border border-purple-400/20 text-purple-300 hover:bg-purple-500/20 transition">
-
-            Explore
-
-          </button>
+          <a href="/design" className="px-5 py-3 rounded-2xl bg-purple-500/10 border border-purple-400/20 text-purple-300 hover:bg-purple-500/20 transition">
+  Explore
+</a>
 
         </div>
 
@@ -316,11 +317,9 @@ export default function Home() {
             Start 75K
           </span>
 
-          <button className="px-5 py-3 rounded-2xl bg-pink-500/10 border border-pink-400/20 text-pink-300 hover:bg-pink-500/20 transition">
-
-            Explore
-
-          </button>
+          <a href="/website" className="px-5 py-3 rounded-2xl bg-pink-500/10 border border-pink-400/20 text-pink-300 hover:bg-pink-500/20 transition">
+  Explore
+</a>
 
         </div>
 
@@ -334,7 +333,7 @@ export default function Home() {
 </FadeUp>
 {/* PRICING SECTION */}
 <FadeUp>
-<section className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
+<section id="pricing" className="safe-reveal relative max-w-7xl mx-auto px-6 md:px-10 pb-32">
 
   {/* TITLE */}
 
@@ -409,11 +408,12 @@ export default function Home() {
 
       </ul>
 
-      <button className="mt-10 w-full py-4 rounded-2xl bg-cyan-500/10 border border-cyan-400/20 text-cyan-300 hover:bg-cyan-500/20 transition">
-
-        Order Now
-
-      </button>
+      <a
+  href={waLink("Halo PanzDev, saya tertarik dengan paket Website Basic 50K. Bisa konsultasi?")}
+  className="mt-10 block w-full text-center py-4 rounded-2xl bg-cyan-500/10 border border-cyan-400/20 text-cyan-300 hover:bg-cyan-500/20 transition"
+>
+  Order Now
+</a>
 
     </div>
 
@@ -466,11 +466,12 @@ export default function Home() {
 
       </ul>
 
-      <button className="mt-10 w-full py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-purple-500 font-semibold hover:scale-105 transition duration-300 shadow-[0_0_40px_rgba(34,211,238,0.3)]">
-
-        Choose Package
-
-      </button>
+      <a
+  href={waLink("Halo PanzDev, saya tertarik dengan paket Website Elite 150K. Bisa konsultasi?")}
+  className="mt-10 block w-full text-center py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-purple-500 font-semibold hover:scale-105 transition duration-300"
+>
+  Choose Package
+</a>
 
     </div>
 
@@ -514,11 +515,12 @@ export default function Home() {
 
       </ul>
 
-      <button className="mt-10 w-full py-4 rounded-2xl bg-pink-500/10 border border-pink-400/20 text-pink-300 hover:bg-pink-500/20 transition">
-
-        Order Premium
-
-      </button>
+      <a
+  href={waLink("Halo PanzDev, saya tertarik dengan paket Website Premium 350K. Bisa konsultasi?")}
+  className="mt-10 block w-full text-center py-4 rounded-2xl bg-pink-500/10 border border-pink-400/20 text-pink-300 hover:bg-pink-500/20 transition"
+>
+  Order Premium
+</a>
 
     </div>
 
