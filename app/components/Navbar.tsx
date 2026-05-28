@@ -18,9 +18,9 @@ export default function Navbar() {
             <h1 className="text-2xl font-black bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 text-transparent bg-clip-text">
               PanzDev
             </h1>
-            <p className="text-sm tracking-[3px] uppercase text-cyan-300/80">
-              Digital Service
-            </p>
+           <p className="text-sm font-bold tracking-[3px] uppercase animated-gradient bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-400 text-transparent bg-clip-text drop-shadow-[0_0_12px_rgba(34,211,238,0.7)]">
+  Digital Service
+</p>
           </div>
         </Link>
 

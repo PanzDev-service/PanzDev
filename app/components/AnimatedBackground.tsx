@@ -28,5 +28,7 @@ export default function AnimatedBackground() {
       {/* Soft spotlight */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(34,211,238,0.08),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(168,85,247,0.08),transparent_35%)]" />
     </div>
+    
   );
+  
 }

@@ -40,17 +40,15 @@ export default function Home() {
 
           </span>
 
-          <h1 className="mt-10 text-6xl md:text-8xl font-black leading-none tracking-tight">
+          <h1 className="text-6xl md:text-8xl font-black leading-none">
+  <span className="block hero-reveal-1">
+    PanzDev
+  </span>
 
-            BUILD YOUR
-
-            <span className="block animated-gradient bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 text-transparent bg-clip-text">
-
-              DIGITAL FUTURE
-
-            </span>
-
-          </h1>
+  <span className="block mt-2 hero-reveal-2 animated-gradient bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 text-transparent bg-clip-text">
+    Digital Service
+  </span>
+</h1>
 
           <p className="mt-8 text-zinc-400 text-lg leading-relaxed max-w-xl">
 
@@ -206,7 +204,7 @@ export default function Home() {
 
     {/* CARD 1 */}
 
-    <div className="group relative overflow-hidden rounded-[32px] border border-cyan-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
+    <div className="premium-card group relative overflow-hidden rounded-[32px] border border-cyan-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
 
       <div className="absolute top-0 right-0 w-40 h-40 bg-cyan-400/10 blur-[80px]"></div>
 
@@ -247,7 +245,7 @@ export default function Home() {
 
     {/* CARD 2 */}
 
-    <div className="group relative overflow-hidden rounded-[32px] border border-purple-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
+    <div className="premium-card group relative overflow-hidden rounded-[32px] border border-purple-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
 
       <div className="absolute top-0 right-0 w-40 h-40 bg-purple-400/10 blur-[80px]"></div>
 
@@ -288,7 +286,7 @@ export default function Home() {
 
     {/* CARD 3 */}
 
-    <div className="group relative overflow-hidden rounded-[32px] border border-pink-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
+    <div className="premium-card group relative overflow-hidden rounded-[32px] border border-pink-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
 
       <div className="absolute top-0 right-0 w-40 h-40 bg-pink-400/10 blur-[80px]"></div>
 
@@ -372,7 +370,7 @@ export default function Home() {
 
     {/* BASIC */}
 
-    <div className="rounded-[32px] border border-cyan-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
+    <div className="premium-card rounded-[32px] border border-cyan-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
 
       <div className="w-16 h-16 rounded-2xl bg-cyan-500/10 flex items-center justify-center border border-cyan-400/10 text-cyan-400 text-2xl font-black">
 
@@ -419,7 +417,7 @@ export default function Home() {
 
     {/* ELITE */}
 
-    <div className="relative rounded-[40px] border border-purple-400/20 bg-gradient-to-b from-purple-500/10 to-cyan-500/10 backdrop-blur-2xl p-10 scale-105 shadow-[0_0_80px_rgba(168,85,247,0.2)]">
+    <div className="premium-card relative rounded-[40px] border border-purple-400/20 bg-gradient-to-b from-purple-500/10 to-cyan-500/10 backdrop-blur-2xl p-10 scale-105 shadow-[0_0_80px_rgba(168,85,247,0.2)]">
 
       {/* BADGE */}
 
@@ -477,7 +475,7 @@ export default function Home() {
 
     {/* PREMIUM */}
 
-    <div className="rounded-[32px] border border-pink-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
+    <div className="premium-card rounded-[32px] border border-pink-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
 
       <div className="w-16 h-16 rounded-2xl bg-pink-500/10 flex items-center justify-center border border-pink-400/10 text-pink-400 text-2xl font-black">
 

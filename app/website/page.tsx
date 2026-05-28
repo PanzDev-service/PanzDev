@@ -105,7 +105,7 @@ export default function WebsitePage() {
 
           {/* CARD */}
 
-          <div className="rounded-[32px] border border-cyan-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
+          <div className="premium-card rounded-[32px] border border-cyan-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
 
             <div className="w-16 h-16 rounded-2xl bg-cyan-500/10 flex items-center justify-center">
 
@@ -127,7 +127,7 @@ export default function WebsitePage() {
 
           {/* CARD */}
 
-          <div className="rounded-[32px] border border-purple-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
+          <div className="premium-card rounded-[32px] border border-purple-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
 
             <div className="w-16 h-16 rounded-2xl bg-purple-500/10 flex items-center justify-center">
 
@@ -149,7 +149,7 @@ export default function WebsitePage() {
 
           {/* CARD */}
 
-          <div className="rounded-[32px] border border-pink-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
+          <div className="premium-card rounded-[32px] border border-pink-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
 
             <div className="w-16 h-16 rounded-2xl bg-pink-500/10 flex items-center justify-center">
 
@@ -171,7 +171,7 @@ export default function WebsitePage() {
 
           {/* CARD */}
 
-          <div className="rounded-[32px] border border-yellow-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
+          <div className="premium-card rounded-[32px] border border-yellow-400/10 bg-white/5 backdrop-blur-2xl p-8 hover:-translate-y-3 transition duration-500">
 
             <div className="w-16 h-16 rounded-2xl bg-yellow-500/10 flex items-center justify-center">
 
@@ -218,7 +218,7 @@ export default function WebsitePage() {
 
           {/* BASIC */}
 
-          <div className="rounded-[32px] border border-cyan-400/10 bg-white/5 backdrop-blur-2xl p-8">
+          <div className="premium-card rounded-[32px] border border-cyan-400/10 bg-white/5 backdrop-blur-2xl p-8">
 
             <h3 className="text-3xl font-black text-cyan-400">
               Basic
@@ -240,7 +240,7 @@ export default function WebsitePage() {
 
           {/* ELITE */}
 
-          <div className="rounded-[40px] border border-purple-400/20 bg-gradient-to-b from-purple-500/10 to-cyan-500/10 backdrop-blur-2xl p-10 scale-105 shadow-[0_0_80px_rgba(168,85,247,0.2)]">
+          <div className="premium-card rounded-[40px] border border-purple-400/20 bg-gradient-to-b from-purple-500/10 to-cyan-500/10 backdrop-blur-2xl p-10 scale-105 shadow-[0_0_80px_rgba(168,85,247,0.2)]">
 
             <h3 className="text-4xl font-black bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">
 
@@ -265,7 +265,7 @@ export default function WebsitePage() {
 
           {/* PREMIUM */}
 
-          <div className="rounded-[32px] border border-pink-400/10 bg-white/5 backdrop-blur-2xl p-8">
+          <div className="premium-card rounded-[32px] border border-pink-400/10 bg-white/5 backdrop-blur-2xl p-8">
 
             <h3 className="text-3xl font-black text-pink-400">
               Premium

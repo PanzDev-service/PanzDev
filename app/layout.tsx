@@ -17,7 +17,6 @@ export default function RootLayout({
         <AnimatedBackground />
         <CursorGlow />
         <Navbar />
-        
           {children}
         
         <Footer />
